@@ -1,0 +1,12 @@
+{
+  "name": "surea11y",
+  "version": "1.4.0",
+  "description": "Run the SureA11y accessibility scanner: npx surea11y scan <file-or-url>. Command entry point for @surea11y/cli.",
+  "bin": { "surea11y": "bin.js" },
+  "files": ["bin.js", "README.md", "LICENSE"],
+  "dependencies": { "@surea11y/cli": "^1.4.0" },
+  "engines": { "node": "^20.19.0 || ^22.13.0 || >=24.0.0" },
+  "repository": "github:SureA11y/surea11y",
+  "homepage": "https://surea11y.dev",
+  "license": "MIT"
+}
